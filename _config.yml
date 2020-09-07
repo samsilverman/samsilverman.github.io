@@ -5,6 +5,8 @@
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # `jekyll serve`. If you change this file, please restart the server process.
 
+# https://junqing-zhang.github.io/research/
+
 # Site Settings
 locale                   : "en-US"
 title                    : "Sam Silverman"
@@ -81,14 +83,14 @@ analytics:
 # Site Author
 author:
   name             : "Sam Silverman"
-  avatar           : "profile.png"
-  bio              : "MS Student in Computer Science at Columbia University"
-  location         : "Location"
-  employer         :
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-  googlescholar    : "http://yourfullgooglescholarurl.com"
-  email            :
-  researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
+  avatar           : "profile.jpg"
+  bio              : "MS Student in Computer Science"
+  location         : "New York, NY"
+  employer         : "Columbia University"
+  pubmed           :
+  googlescholar    :
+  email            : "samuel.silverman@columbia.edu"
+  researchgate     :
   uri              :
   bitbucket        :
   codepen          :
@@ -96,20 +98,20 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "academicpages"
+  github           : "samsilverman"
   google_plus      :
   keybase          :
   instagram        :
-  impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
+  impactstory      :
   lastfm           :
-  linkedin         :
-  orcid            : "http://orcid.org/yourorcidurl"
+  linkedin         : "samuel-silverman"
+  orcid            :
   pinterest        :
   soundcloud       :
-  stackoverflow    : # http://stackoverflow.com/users/123456/username
+  stackoverflow    :
   steam            :
   tumblr           :
-  twitter          : "replacethistwitterhandle"
+  twitter          : "sam_silverman"
   vine             :
   weibo            :
   xing             :
@@ -181,7 +183,7 @@ collections:
   publications:
     output: true
     permalink: /:collection/:path/
-  portfolio:
+  projects:
     output: true
     permalink: /:collection/:path/
   talks:
@@ -227,10 +229,10 @@ defaults:
       author_profile: true
       share: true
       comments: true
-  # _portfolio
+  # _projects
   - scope:
       path: ""
-      type: portfolio
+      type: projects
     values:
       layout: single
       author_profile: true
@@ -265,6 +267,7 @@ plugins:
   - jekyll-gist
   - jekyll-feed
   - jekyll-redirect-from
+  - jekyll-figure
 # mimic GitHub Pages with --safe
 whitelist:
   - jekyll-paginate
@@ -272,8 +275,6 @@ whitelist:
   - jekyll-gist
   - jekyll-feed
   - jemoji
-
-
 # Archives
 #  Type
 #  - GitHub Pages compatible archive pages built with Liquid ~> type: liquid (default)
