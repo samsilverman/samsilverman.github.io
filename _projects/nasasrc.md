@@ -17,10 +17,6 @@ share: false
 read_time: false
 category: Personal
 ---
-{% figure caption:"Simulation screenshot with scout and home base" %}
-![Simulation screenshot with scout and home base](/images/nasasrc/nasasrc.png)
-{% endfigure %}
-
 Phase 2 of the [NASA Space Robotics Challenge (SRC)](https://www.challenge.gov/challenge/space-robotics-challenge-phase-2/){:target="_blank"} deals with [in-situ resource utilization (ISRU)](https://en.wikipedia.org/wiki/In_situ_resource_utilization){:target="_blank"}. ISRU is the practice of collecting and using materials found locally on astronomical objects. ISRU has numerous benefits over bringing material from Earth including but not limited to reduced cost and time and increased efficiency.
 
 Thus the goal of the challenge is to advance the capabilities of autonomous lunar surface robots to aid in ISRU.
@@ -38,10 +34,6 @@ The simulation environment mimics the Moon with hills, craters, and a random ass
 ### Rovers
 
 Three rovers, each created for a specific function, are provided. The scout rover is designed to explore the lunar terrain, the excavator rover is designed to dig resources below the lunar surface, and the hauler is designed to transport resources to the home base.
-
-{% figure caption:"Left to right: scout, excavator, hauler" %}
-![Simulation screenshot with scout and home base](/images/nasasrc/rovers.jpg)
-{% endfigure %}
 
 ## Challenge Tasks
 

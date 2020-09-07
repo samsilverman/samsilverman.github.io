@@ -19,10 +19,6 @@ category: course
 <a href="https://www.youtube.com/watch?v=0zFvWrOs-L8" target="_blank" class="btn"><i class="fab fa-youtube"></i>  Demo</a>
 <a href="https://github.com/samsilverman/coms4172project" target="_blank" class="btn"><i class="fab fa-github"></i> Code</a>
 
-{% figure caption:"Left to right: Jacks board, main menu, Poker board" %}
-![Left to right: Jacks board, main menu, Poker board](/images/mobilegamar/mobilegamar.png)
-{% endfigure %}
-
 Mobile GamAR is a mobile augmented reality application that allows users to conveniently play a variety of virtual board and card games. With the aid of a mobile device, users can control various game pieces. Currently, Mobile GamAR supports Poker based card games and Jacks. Mobile GamAR relies on <a href="https://graphics.cs.columbia.edu/courses/csw4172/S20_VuforiaTargets.pdf" target="_blank">image targets</a> to display virtual content.
 
 Mobile GamAR was developed as a final project for the Columbia University course <a href="https://graphics.cs.columbia.edu/courses/csw4172/" target="_blank">COMS 4172: 3D User Interfaces and Augmented Reality</a>.
@@ -35,28 +31,12 @@ Mobile GamAR was developed as a final project for the Columbia University course
 
 A hand toolbar, represented as a wand, is used for game selection and manipulation. The user selects objects by touching them with the toolbar which then displays a manipulation UI. Using the manipulation UI and toolbar, the user can perform a variety of actions on the selected item including translation, rotation, and discarding. The available actions vary from item to item to fit its needs.
 
-{% figure caption:"Hand toolbar" %}
-![Movement buttons](/images/mobilegamar/selection&manipulation.jpg)
-{% endfigure %}
-
 <h2>Travel</h2>
 
 Some board and card games may require players to move around while playing. For example, in Jacks, a player may move to obtain the best possible angle of play. While a player could physically move around with their phone, Mobile GamAR provides movement buttons to move the entire game world. This allows players to play in environments that may not have the physical space to play.
-
-{% figure caption:"Movement buttons" %}
-![Movement buttons](/images/mobilegamar/travel.jpg)
-{% endfigure %}
 
 <h2>Wayfinding</h2>
 
 To allow users to localize themselves amongst other players, Mobile GamAR provides a top down allocentric view of the game. The player's position within the world is identified by a blue dot and opponents' positions by red dots.
 
-{% figure caption:"Minimap" %}
-![Mobile GamAR minimap](/images/mobilegamar/wayfinding_1.jpg)
-{% endfigure %}
-
 Furthermore, opponents visible within screen bounds are identifed with a red box target and distance measurement relative to the player.
-
-{% figure caption:"Player target" %}
-![Mobile GamAR player target](/images/mobilegamar/wayfinding_2.jpg){: .center}
-{% endfigure %}
