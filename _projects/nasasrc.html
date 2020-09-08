@@ -1,0 +1,85 @@
+---
+title: NASA Space Robotics Challenge
+excerpt: Mission member on the Columbia Space Initiative (CSI) team competing in the NASA Space Robotics Challenge.<br><br><img src='/images/nasasrc/nasasrc_front.png'>
+collection: projects
+permalink: /projects/project/nasasrc/
+# tags:
+#   - Robotics
+#   - Autonomous Vehicles
+#   - Aerospace
+#   - NASA
+redirect_from: 
+  - /nasa.html
+  - /nasa/
+  - /nasasrc.html
+  - /nasasrc/
+share: false
+read_time: false
+category: Personal
+---
+<div class="image">
+  <img src="/images/nasasrc/nasasrc.png">
+  <p class="image-caption">Simulation screenshot with scout and home base</p>
+</div>
+
+Phase 2 of the <a href="https://www.challenge.gov/challenge/space-robotics-challenge-phase-2/" target="_blank">NASA Space Robotics Challenge (SRC)</a> deals with <a href="https://en.wikipedia.org/wiki/In_situ_resource_utilization" target="_blank">in-situ resource utilization (ISRU)</a>. 
+ISRU is the practice of collecting and using materials found locally on astronomical objects. 
+ISRU has numerous benefits over bringing material from Earth including but not limited to reduced cost and time and increased efficiency.
+
+Thus the goal of the challenge is to advance the capabilities of autonomous lunar surface robots to aid in ISRU.
+
+<blockquote>
+  Future ISRU missions may occur on surfaces such as Earth's moon, and will likely need to operate autonomously for long periods of time before, during, and after the presence of astronauts. 
+  Robots that can successfully perform ISRU tasks with little to no human intervention are valuable due to both the communication latencies and limited bandwidth between these destinations and Earth. 
+  -- <a href="https://www.challenge.gov/challenge/space-robotics-challenge-phase-2/" target="_blank">NASA SRC Description</a>
+</blockquote>
+
+I am a member of the <a href="https://columbiaspace.org/missions/mission-nasa-src/" target="_blank">Columbia Space Initiative (CSI)</a> team competing in the NASA SRC.
+
+<h2>Simulation Environment</h2>
+
+The entire challenge is conducted in a simulated environment using the <a href="https://www.ros.org" target="_blank">Robot Operating System (ROS)</a> and the <a href="https://www.ros.org" target="_blank">Gazebo</a> simulator.
+
+The simulation environment mimics the Moon with hills, craters, and a random assortment of rocks and volatile compounds. 
+Additionally, the simulation environment contains a home base and, depending on the task, may include a <a href="https://en.wikipedia.org/wiki/CubeSat" target="_blank">CubeSat</a> on the lunar surface.
+
+<h2>Rovers</h2>
+
+Three rovers, each created for a specific function, are provided. 
+The scout rover is designed to explore the lunar terrain, the excavator rover is designed to dig resources below the lunar surface, and the hauler is designed to transport resources to the home base.
+<br><br>
+<div class="image">
+  <img src="/images/nasasrc/rovers.jpg">
+  <p class="image-caption">Left to right: scout, excavator, hauler</p>
+</div>
+
+<h2>Challenge Tasks</h2>
+
+The competition consists of three tasks each encompassing a specific challenge one would expect from an ISRU mission with autonomous rovers.
+
+<h3>Task 1: Resource Localization</h3>
+
+<blockquote>
+  The goal of this task is to locate and identify as many resources as possible within the time constraints of the task. 
+  -- <a href="https://ninesights.ninesigma.com/apps/IMT/Html/apps/IMT/UploadedFiles/00/f_ed0aa4dc892c366712281fa8db3e0874/SRCPhase2_Official_Rules_rev._06.2020c.pdf?v=1591339613" target="_blank">NASA SRC Official Rules</a>
+</blockquote>
+
+This task focuses on exploration and mapping as the scout rover must autonomously explore while avoiding obstacles to identify and map resources.
+
+<h3>Task 2: Resource Collection</h3>
+
+<blockquote>
+  The goal of this task is to excavate and collect as many resources as possible within the time constraints of the task.
+  -- <a href="https://ninesights.ninesigma.com/apps/IMT/Html/apps/IMT/UploadedFiles/00/f_ed0aa4dc892c366712281fa8db3e0874/SRCPhase2_Official_Rules_rev._06.2020c.pdf?v=1591339613" target="_blank">NASA SRC Official Rules</a>
+</blockquote>
+
+This task deals with path planning, manipulation, and coordination of a robot team as the excavator and hauler rovers must autonomously collect resources at known locations.
+
+<h3>Task 3: Self-localization</h3>
+
+<blockquote>
+  The goal of this task is to demonstrate self-localization of a robotic system.
+  -- <a href="https://ninesights.ninesigma.com/apps/IMT/Html/apps/IMT/UploadedFiles/00/f_ed0aa4dc892c366712281fa8db3e0874/SRCPhase2_Official_Rules_rev._06.2020c.pdf?v=1591339613" target="_blank">NASA SRC Official Rules</a>
+</blockquote>
+
+This task deals with localization as the scout rover must correctly find a CubeSat and return to the home base in correct alignment.

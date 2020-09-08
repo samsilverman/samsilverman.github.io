@@ -13,8 +13,13 @@ share: false
 read_time: false
 category: Course
 ---
-
 <a href="https://github.com/samsilverman/CamLib" target="_blank" class="btn"><i class="fab fa-github"></i> Code</a>
+<br>
+<br>
+<div class="image">
+  <img src="/images/camlib/camlib.png">
+  <p class="image-caption">Left to right: uploaded photo menu, search results menu, search with ISBN menu, info menu</p>
+</div>
 
 CamLib was developed for iOS 11 and was a final project for the University of Massachusetts Amherst course <a href="https://people.cs.umass.edu/~weems/homepage/courses/cmpsci-491ip.html" target="_blank">COMPSCI 491IP: Programming the iPhone and iPad</a> in which the project focused on exposing students to a typical app development process.
 
@@ -34,10 +39,10 @@ The two main competitors for CamLib are
 
 <ol>
   <li>
-    <a href="https://www.easybib.com" target="_blank">EasyBib</a> which provides users with a platform for creating bibliographies for a wide range of sources.
+    <a href="https://www.easybib.com" target="_blank">EasyBib</a>, which provides users with a platform for creating bibliographies for a wide range of sources.
   </li>
   <li>
-    Generic search engines which allow users to quickly lookup a book&#39;s information.
+    Generic search engines, which allow users to quickly lookup a book&#39;s information.
   </li>
 </ol>
 
@@ -53,10 +58,13 @@ A low estimate assumes that only 1% of the 34 million students, or 340,000 stude
 
 <h2>User Scenarios</h2>
 
-TODO
+<div class="image">
+  <img src="/images/camlib/userscenarios.jpeg">
+  <p class="image-caption">User scenario diagram for CamLib</p>
+</div>
 
 <h2>App Data Management</h2>
 
-CamLib uses the iOS devices photo library, camera, and sharing settings (email, iMessage, AirDrop, etc.) to upload images and share generated content.
+CamLib uses the iOS device's photo library, camera, and sharing settings (email, iMessage, AirDrop, etc.) to upload images and share generated content.
 
 Furthermore, CamLib relies on the <a href="https://tesseract-ocr.github.io" target="_blank">Tesseract OCR</a> for character recognition and the <a href="https://openlibrary.org/developers/api" target="_blank">Open Library API</a> for obtaining information.

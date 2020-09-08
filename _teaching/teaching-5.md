@@ -17,7 +17,7 @@ Brian A. Smith (CS)
 
 ## Responsibilities
 
-Plan course structure, grade assignments, lead office hours and answer students' questions.
+Plan course structure, grade assignments, lead office hours, and answer students' questions.
 
 ## Course Description
 
