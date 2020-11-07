@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+        
+        <!-- Font Awesome -->
+        <link rel="stylesheet" href="../thirdparty/fontawesome-free-5.15.1-web/css/all.css">
+
+        <!-- Style -->
+        <link rel="stylesheet" href="../style/style.css">
+        
+        <title>Projects - NASA SRC</title>
+    </head>
+    <body>
+        <div class="jumbotron">
+            <a role="button" class="btn btn-outline-dark" href="../index.html">
+                <i class="fas fa-chevron-left"></i>
+            </a>
+            <br>
+            <br>
+            <h1 class="display text-center">
+                NASA Space Robotics Challenge
+            </h1>
+            <br>
+            <br>
+            <p class="lead">
+                Phase 2 of the NASA Space Robotics Challenge (SRC) deals with in-situ resource utilization (ISRU). 
+                ISRU is the practice of collecting and using materials found locally on astronomical objects. 
+                ISRU has numerous benefits over bringing material from Earth including but not limited to reduced cost and time and increased efficiency. 
+                Thus the goal of the challenge is to advance the capabilities of autonomous lunar surface robots to aid in ISRU.
+            </p>
+            <hr class="my">
+            <p class="text-center">
+                Mission member on the Columbia Space Initiative (CSI) team
+            </p>
+        </div>
+        <div class="container-fluid">
+            <blockquote class="blockquote">
+                <p class="mb-0">
+                    Future ISRU missions may occur on surfaces such as Earth's moon, and will likely need to operate autonomously for long periods of time before, during, and after the presence of astronauts. 
+                    Robots that can successfully perform ISRU tasks with little to no human intervention are valuable due to both the communication latencies and limited bandwidth between these destinations and Earth.
+                </p>
+                <footer class="blockquote-footer">Description for the <cite title="Source Title"><a href="https://www.challenge.gov/challenge/space-robotics-challenge-phase-2/" target="_blank">NASA Space Robotics Challenge</a></cite></footer>
+            </blockquote>
+            <br>
+            <h3>
+                Challenge Details
+            </h3>
+            <p>
+                The SRC challenge was conducted entirely in a simulated environment using the Robot Operating System (ROS) and Gazebo simulator.
+                The simulation environment mimics a lunar environment and contains a variety of rocks, hills, craters. 
+                Additionally, the simulation contains task specific objects such as resources, a home base, and a CubeSat.
+                <br>
+                <br>
+                The challenge is comprised of three tasks: Resource localization, resource collection, and self-localization.
+            </p>
+            <h4>
+                Rovers
+            </h4>
+            <p>
+                Three rovers, each created for a specific function, are provided. 
+                The scout is designed to explore the lunar terrain, the excavator is designed to dig resources below the lunar surface, and the hauler is designed to transport resources to the home base. 
+            </p>
+            <div class="card border-0 mx-auto" style="max-width: 600px;">
+                    <img src="../media/projects/NASA-SRC/rovers.jpg" class="card-img-top rounded">
+                    <div class="card-body text-center">
+                        <p class="card-text"><small class="text-muted">Left to right: scout, excavator, hauler</small></p>
+                    </div>
+            </div>
+            <h3>
+                Contribution
+            </h3>
+            <p>
+                I primarily worked on three areas of the challenge.
+            </p>
+            <h4>
+                Sensor Rectification
+            </h4>
+            <p>
+                The sensors on the rovers (camera, lidar, IMU) produced noisy readings that had to be rectified.
+            </p>
+            <div class="card border-0 mx-auto" style="max-width: 600px;">
+                <img src="../media/projects/NASA-SRC/sensors.png" class="card-img-top rounded">
+                <div class="card-body text-center">
+                    <p class="card-text"><small class="text-muted">Noisy lidar data</small></p>
+                </div>
+            </div>
+            <h4>
+                Obstacle Avoidance
+            </h4>
+            <p>
+                A robust obstacle avoidance system had to be created due to the difficult lunar terrain.
+            </p>
+            <div class="card border-0 mx-auto" style="max-width: 600px;">
+                <video loop muted autoplay style="width: 100%" poster="../media/projects/NASA-SRC/Website-NASASRC.jpg" class="rounded">
+                    <source type="video/mp4" src="../media/projects/NASA-SRC/Website-NASASRC.mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <div class="card-body text-center">
+                    <p class="card-text"><small class="text-muted">Scout using the Bug1 obstacle avoidance algorithm</small></p>
+                </div>
+            </div>
+            <h4>
+                Resource Collection
+            </h4>
+            <p>
+                Rovers need subroutines to accurately exavate and store resources.
+            </p>
+            <div class="card border-0 mx-auto" style="max-width: 600px;">
+                <img src="../media/projects/NASA-SRC/excavation.png" class="card-img-top rounded">
+                <div class="card-body text-center">
+                    <p class="card-text"><small class="text-muted">Excavator and Hauler extracting a resource</small></p>
+                </div>
+            </div>
+        </div>
+        <footer class="footer py-3">
+            <div class="container-fluid text-center">
+                <span class="text-muted">
+                    © 2020 Sam Silverman. Last updated 11/4/2020.
+                    <br>
+                    <a role="button" class="btn btn-social-media" href="mailto:samuel.silverman@columbia.edu" target="_blank">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                    <a role="button" class="btn btn-social-media" href="https://www.linkedin.com/in/samuel-silverman" target="_blank">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                    <a role="button" class="btn btn-social-media" href="https://twitter.com/sam_silverman" target="_blank">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a role="button" class="btn btn-social-media" href="https://github.com/samsilverman" target="_blank">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </span>
+            </div>
+        </footer>
+    </body>
+</html>

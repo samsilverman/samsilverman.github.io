@@ -1,0 +1,24 @@
+.no-link-style, .no-link-style:hover {
+    text-decoration: none;
+    color: inherit;
+}
+
+.project-video {
+    /* float: center;
+    display: block; */
+    /* max-width: 560px;
+    max-height: 315px; */
+    width: 33%;
+}
+
+.col-sm img {
+    width: 100%;
+}
+
+.btn-social-media {
+    color: #6c757d;
+}
+
+.btn-social-media:hover {
+    color: black;
+}
