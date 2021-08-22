@@ -1,0 +1,9 @@
+[
+    {
+        "title": "NavStick: Making Video Games Blind-Accessible via the Ability to Look Around",
+        "image": "resources/images/publications/NavStick.png",
+        "authors": "Vishnu Nair, Jay L. Karp, <b>Samuel Silverman</b>, Mohar Kalra, Hollis Lehv, Faizan Jamil, and Brian A. Smith",
+        "conference": "ACM UIST 2021 (to appear)",
+        "description": "We introduce NavStick, an audio-based tool for looking around within virtual environments, with the aim of making 3D adventure video games more blind-accessible. NavStick repurposes a game controller’s thumbstick to allow visually impaired people to survey what is around them via line-of-sight."
+    }
+]

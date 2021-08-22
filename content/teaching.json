@@ -1,0 +1,14 @@
+[
+    {
+        "course": "Course A",
+        "position": "Head TA",
+        "university": "University A",
+        "semester": "Fall 2020"
+    },
+    {
+        "course": "Course B",
+        "position": "Head TA",
+        "university": "University A",
+        "semester": "Spring 2021"
+    }
+]

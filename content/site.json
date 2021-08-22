@@ -1,0 +1,13 @@
+{
+    "site_title": "Sam Silverman",
+    "name": "Sam Silverman",
+    "year": 2021,
+    "description": "I am a first-year Ph.D. student at <a href=\"https://www.bu.edu/cs/\" target=\"_blank\">Boston University</a> in the <a href=\"https://shape.bu.edu\" target=\"_blank\">Shape Lab</a> advised by <a href=\"https://cs-people.bu.edu/whiting/\" target=\"_blank\">Prof. Emily Whiting</a>. My primary interests lie in Artificial Intelligence, Computational Fabrication, Human-Computer Interaction, and Robotics.<br><br>Previously I obtained my master's degree at <a href=\"https://www.cs.columbia.edu\" target=\"_blank\">Columbia University</a> where I worked with <a href=\"http://www.cs.columbia.edu/~brian/\" target=\"_blank\">Prof. Brian A. Smith</a> on navigation tools for visually impaired people.<br><br>I received my bachelor's degree at the <a href=\"https://www.cics.umass.edu\" target=\"_blank\">University of Massachusetts Amherst</a>.",
+    "media": {
+        "email": "mailto:sssilver@bu.edu",
+        "linkedin": "https://www.linkedin.com/in/samuel-silverman",
+        "twitter": "https://twitter.com/sam_silverman",
+        "github": "https://github.com/samsilverman"
+    },
+    "cv": true
+}

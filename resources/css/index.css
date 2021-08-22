@@ -1,0 +1,96 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2 {
+    margin: 0;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), lightgray, rgba(0, 0, 0, 0));
+}
+
+a {
+    color: blue;
+    text-decoration: none;
+}
+
+a:hover, a:focus {
+    color: orange !important;
+}
+
+li {
+    margin: 10px;
+}
+
+span {
+    display: inline;
+}
+
+.small-margins {
+    width: 100%;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.large-margins {
+    width: 100%;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.text-half {
+    width: 75%;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+
+.image-half {
+    width: 25%;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+
+.footer-text {
+    text-align: center;
+    font-size: small;
+}
+
+#name {
+    text-align: center;
+}
+
+#profile-image {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+    border: 2px solid lightgray;
+    float: left;
+}
+
+#body-image {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    padding: 0;
+    margin: 0;
+    border: none;
+}
+
+#media {
+    text-align: center;
+}
+
+.award {
+    color: green;
+}
+
+.media-link {
+    color: black !important;
+}
