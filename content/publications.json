@@ -1,6 +1,7 @@
 [
     {
         "title": "NavStick: Making Video Games Blind-Accessible via the Ability to Look Around",
+        "link": "https://arxiv.org/abs/2109.01202",
         "image": "resources/images/publications/NavStick.png",
         "authors": "Vishnu Nair, Jay L. Karp, <b>Samuel Silverman</b>, Mohar Kalra, Hollis Lehv, Faizan Jamil, and Brian A. Smith",
         "conference": "ACM UIST 2021 (to appear)",
