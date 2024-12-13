@@ -1,52 +1,104 @@
-<!DOCTYPE html>
-<html lang="en-us">
+<!doctype html>
+<html lang="en">
 
 <head>
-    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-
-    <link rel="stylesheet" type="text/css" href="resources/css/index.css" />
-    <link rel="stylesheet" type="text/css" href="resources/thirdparty/academicons-1.9-2.1/css/academicons.min.css" />
-    <link rel="stylesheet" type="text/css" href="resources/thirdparty/fontawesome-free-5.15.4-web/css/all.min.css" />
-    <link rel="icon" type="image/png" href="resources/images/favicon.png">
-
-    <script type="text/javascript" src="resources/js/index.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0" />
+    <title>Samuel Silverman</title>
+    <link rel="icon" type="image/png" href="assets/images/favicon.png">
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-    <!-- Header -->
-    <table class="small-margins">
-        <tr>
-            <td class="text-half">
-                <h1 id="name"></h1>
-                <div id="description"></div>
-                <br>
-                <div id="media"></div>
-            </td>
-            <td class="image-half">
-                <img id="profile-image" src="resources/images/me.jpg" />
-            </td>
-        </tr>
-    </table>
+    <header>
+        <div class="profile-container">
+            <img src="assets/images/profile2.jpg" class="profile-image">
+            <h1>Sam Silverman</h1>
+            <p>sssilver [at] bu.edu</p>
+            <p>
+                <a href="https://scholar.google.com/citations?user=NzBvCc0AAAAJ">Google Scholar</a>,
+                <a href="https://github.com/samsilverman">Github</a>,
+                <a href="https://twitter.com/sam_silverman">Twitter</a>,
+            </p>
+        </div>
+        <p>I am a fourth-year PhD student in Computer Science at Boston University (BU), where I am
+            a member of the <a href="https://shape.bu.edu">Shape Lab</a> advised by <a
+                href="https://cs-people.bu.edu/whiting/">Emily Whiting</a>. My research leverages Machine
+            Learning and Computational Mechanics to design structures and materials with optimized behaviors.</p>
+        <p>Before starting my PhD, I obtained a Master's in Computer Science from Columbia University, where I worked
+            with <a href="https://ceal.cs.columbia.edu/people/">Brian A. Smith</a>, and a Bachelor's in Computer Science
+            from the University of Massachusetts Amherst.</p>
+    </header>
     <hr>
-    <!-- Body -->
-    <div class="large-margins" id="body">
-        <!-- Section order START -->
-        <div id="news"></div>
-        <div id="publications"></div>
-        <!-- <div id="awards"></div> -->
-        <!-- <div id="teaching"></div> -->
-        <!-- <div id="projects"></div> -->
-        <!-- <div id="misc"></div> -->
-        <!-- Section order END -->
+    <h2>Publications</h2>
+    <div class="content-container">
+        <div>
+            <img src="assets/images/data-driven-nonlinear.png" class="content-image">
+        </div>
+        <div class="content-text-container">
+            <h4>Data-Driven Nonlinear Deformation Design of 3D-Printable Shells</h4>
+            <p>Samuel Silverman, Kelsey L. Snapp, Keith A. Brown, Emily Whiting</p>
+            <h5>In Submission</h5>
+            <p><a href="assets/pdf/Silverman-DataDrivenNonlinear.pdf" type="application/pdf">PDF</a></p>
+        </div>
     </div>
-    <!-- Footer -->
-    <hr>
-    <p id="copyright" class="footer-text"></p>
-    <!-- If altering/removing, kindly provide a similar reference to minimal-academia in the footer or elsewhere :)  -->
-    <p class="footer-text">
-        Created with <a href="https://github.com/samsilverman/minimal-academia" target="_blank">minimal-academia</a>
-    </p>
+    <div class="content-container">
+        <div>
+            <img src="assets/images/a-physics-informed.png" class="content-image">
+        </div>
+        <div class="content-text-container">
+            <h4>A Physics-Informed Impact Model Refined by Multi-Fidelity Transfer Learning</h4>
+            <p>Kelsey L. Snapp, Samuel Silverman, Richard Pang, Thomas M. Tiano, Timothy J. Lawton, Emily Whiting, Keith
+                A. Brown</p>
+            <h5>Extreme Mechanics Letters (2024)</h5>
+            <p><a href="assets/pdf/Snapp-APhysicsInformed.pdf" type="application/pdf">PDF</a>, <a
+                    href="https://open.bu.edu/handle/2144/46509">Data</a>, <a
+                    href="assets/bibtex/Snapp-APhysicsInformed.txt" type="text/plain">BibTeX</a></p>
+        </div>
+    </div>
+    <div class="content-container">
+        <div>
+            <img src="assets/images/superlative-mechanical-energy.png" class="content-image">
+        </div>
+        <div class="content-text-container">
+            <h4>Superlative Mechanical Energy Absorbing Efficiency Discovered Through Self-Driving Lab-Human Partnership
+            </h4>
+            <p>Kelsey L. Snapp, Benjamin Verdier, Aldair E. Gongora, Samuel Silverman, Adedire D. Adesiji, Elise F.
+                Morgan, Timothy J. Lawton, Emily Whiting, Keith A. Brown</p>
+            <h5>Nature Communications (2024)</h5>
+            <p><a href="assets/pdf/Snapp-SuperlativeMechanicalEnergy.pdf" type="application/pdf">PDF</a>, <a
+                    href="assets/pdf/Snapp-SuperlativeMechanicalEnergySupplemental.pdf"
+                    type="application/pdf">Supplemental</a>, <a href="https://hdl.handle.net/2144/46687">Data</a>, <a
+                    href="https://github.com/bu-shapelab/gcs">Code</a>,
+                <a href="assets/bibtex/Snapp-SuperlativeMechanicalEnergy.txt" type="text/plain">BibTeX</a>
+            </p>
+        </div>
+    </div>
+    <div class="content-container">
+        <div>
+            <img src="assets/images/navstick-making-video.png" class="content-image">
+        </div>
+        <div class="content-text-container">
+            <h4>Navstick: Making Video Ggames Blind-Accessible via the Ability to Look Around</h4>
+            <p>Vishnu Nair, Jay L. Karp, Samuel Silverman, Mohar Kalra, Hollis Lehv, Faizan Jamil, Brian A. Smith</p>
+            <h5>ACM Symposium on User Interface Software and Technology (2021)</h5>
+            <p><a href="https://ceal.cs.columbia.edu/navstick/">Project Page</a>, <a
+                    href="assets/pdf/Nair-NavstickMakingVideo.pdf" type="application/pdf">PDF</a>, <a
+                    href="assets/bibtex/Nair-NavstickMakingVideo.txt" type="text/plain">BibTeX</a></p>
+        </div>
+    </div>
+    <h2>Code</h2>
+    <div class="content-container">
+        <div>
+            <img src="assets/images/gcs.png" class="content-image">
+        </div>
+        <div class="content-text-container">
+            <h4>GCS
+            </h4>
+            <p>Python library for generating STL meshes of generalized cylindrical shells (GCS)</p>
+            <p><a href="https://github.com/bu-shapelab/gcs">Github</a></p>
+        </div>
+    </div>
 </body>
 
 </html>

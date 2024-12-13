@@ -1,0 +1,15 @@
+@inproceedings{Nair:2021:NavstickMakingVideo,
+author = {Nair, Vishnu and Karp, Jay L and Silverman, Samuel and Kalra, Mohar and Lehv, Hollis and Jamil, Faizan and Smith, Brian A.},
+title = {NavStick: Making Video Games Blind-Accessible via the Ability to Look Around},
+year = {2021},
+isbn = {9781450386357},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3472749.3474768},
+doi = {10.1145/3472749.3474768},
+booktitle = {The 34th Annual ACM Symposium on User Interface Software and Technology},
+pages = {538–551},
+numpages = {14},
+location = {Virtual Event, USA},
+series = {UIST '21}
+}

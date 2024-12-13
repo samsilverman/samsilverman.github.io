@@ -1,0 +1,11 @@
+@article{Snapp:2024:APhysicsInformed,
+title = {A physics-informed impact model refined by multi-fidelity transfer learning},
+journal = {Extreme Mechanics Letters},
+volume = {72},
+pages = {102223},
+year = {2024},
+issn = {2352-4316},
+doi = {https://doi.org/10.1016/j.eml.2024.102223},
+url = {https://www.sciencedirect.com/science/article/pii/S2352431624001032},
+author = {Kelsey L. Snapp and Samuel Silverman and Richard Pang and Thomas M. Tiano and Timothy J. Lawton and Emily Whiting and Keith A. Brown},
+}
