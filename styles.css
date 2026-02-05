@@ -16,17 +16,17 @@ a {
 }
 
 a:hover {
-    color: #A52A2A;
-    border-bottom-color: #A52A2A;
+    color: #9e5457;
+    border-bottom-color: #9e5457;
 }
 
 header a {
-    border-bottom: 1px solid #A52A2A;
-    color: #A52A2A;
+    border-bottom: 1px solid #9e5457;
+    color: #9e5457;
 }
 
 header a:hover {
-    color: #A52A2A;
+    color: #9e5457;
     border-bottom: none;
 }
 
@@ -78,7 +78,7 @@ hr {
 }
 
 h5 {
-    color: #A52A2A;
+    color: #9e5457;
 }
 
 h2 {

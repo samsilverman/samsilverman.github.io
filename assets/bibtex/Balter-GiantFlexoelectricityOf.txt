@@ -1,0 +1,14 @@
+@article{Balter:2026:GiantFlexoelectricityOf,
+author = {Dylan J. Balter and Colin McMillen and Alec Ewe and Jonathan Thomas and Samuel Silverman and Lalitha Parameswaran and Luis Fernando Velásquez-García and Emily Whiting and Steven Patterson and Hilmar Koerner and Keith A. Brown},
+title = {Giant flexoelectricity of additively manufactured polylactic acid},
+year = {2026},
+journal = {Additive Manufacturing},
+volume = {116},
+pages = {105066},
+issn = {2214-8604},
+doi = {10.1016/j.addma.2025.105066},
+url = {https://doi.org/10.1016/j.addma.2025.105066},
+author = {Dylan J. Balter and Colin McMillen and Alec Ewe and Jonathan Thomas and Samuel Silverman and Lalitha Parameswaran and Luis Fernando Velásquez-García and Emily Whiting and Steven Patterson and Hilmar Koerner and Keith A. Brown},
+keywords = {Additive manufacturing, Flexoelectricity, Microstructure, Strain sensor},
+abstract = {Flexoelectricity is the electrical response that originates when insulating materials are subjected to a strain gradient. This effect is generally considered to be small but known to depend sensitively on material microstructure. This paper explores the hypothesis that the microstructure produced by additive manufacturing (AM) can strongly influence flexoelectricity. Surprisingly, it is found that minor changes to this microstructure produced using fused filament fabrication, a mainstream approach for additively manufacturing thermoplastics, can lead to enormous changes in the magnitude and polarity of the flexoelectric response of polylactic acid (PLA). To explain these changes, a layer dipole model (LDM) is proposed that connects the in-plane shear in each layer to the electrical polarization that it produces. This model explains three independent mechanisms that were identified and that collectively allow one to drastically increase the flexoelectric effect by 173 fold: (1) choosing printing settings to optimize the geometry of pores between extruded lines, (2) choosing the infill of each layer such that bending-induced strain produces productive in-plane shear stresses, and (3) post-deposition annealing of the printed material to increase its crystallinity. This understanding will enable future sensors in which the structural material is also responsible for electromechanical functionality.}
+}
